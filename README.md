@@ -647,7 +647,7 @@ By default, govulncheck makes requests to the Go vulnerability database at https
 
 - [ckjm](http://www.spinellis.gr/sw/ckjm) — Calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files.
 
-- [CogniCrypt](https://www.eclipse.org/cognicrypt) — Checks Java source and byte code for incorrect uses of cryptographic APIs.
+- [CogniCrypt](https://www.eclipse.org/cognicrypt) :warning: — Checks Java source and byte code for incorrect uses of cryptographic APIs.
 
 - [Dataflow Framework](https://github.com/typetools/checker-framework) — An industrial-strength dataflow framework for Java. The Dataflow Framework is used in the Checker Framework, Google’s Error Prone, Uber’s NullAway, Meta’s Nullsafe, and in other contexts. It is distributed with the Checker Framework.
 

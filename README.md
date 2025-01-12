@@ -2032,7 +2032,7 @@ but with the following improvements:
 
 - [mdformat](https://mdformat.rtfd.io) — CommonMark compliant Markdown formatter
 
-- [mdl](https://github.com/mivok/markdownlint) — A tool to check Markdown files and flag style issues.
+- [mdl](https://github.com/mivok/markdownlint) :warning: — A tool to check Markdown files and flag style issues.
 
 - [mdsf](https://github.com/hougesen/mdsf) — Format markdown code blocks using your favorite code formatters.
 

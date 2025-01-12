@@ -319,7 +319,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://tools.android.com/tips/lint",
+    "homepage": "https://developer.android.com/studio/write/lint",
     "source": "https://android.googlesource.com",
     "pricing": null,
     "plans": null,
@@ -2881,11 +2881,11 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://coala.io",
+    "homepage": "https://github.com/coala/coala",
     "source": "https://github.com/coala/coala",
     "pricing": null,
     "plans": null,
-    "description": "Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default.",
+    "description": "Language independent framework for creating code analysis - supports over 60 languages by default.",
     "discussion": null,
     "deprecated": true,
     "resources": null,
@@ -3450,39 +3450,6 @@
     "pricing": null,
     "plans": null,
     "description": "A static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": null,
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
-  "codepatrol": {
-    "name": "CodePatrol",
-    "categories": [
-      "linter"
-    ],
-    "languages": [
-      "csharp",
-      "java",
-      "javascript",
-      "php"
-    ],
-    "other": [
-      "ci",
-      "security"
-    ],
-    "licenses": [
-      "proprietary"
-    ],
-    "types": [
-      "service"
-    ],
-    "homepage": "https://cyber-security.claranet.fr/en/codepatrol",
-    "source": null,
-    "pricing": null,
-    "plans": null,
-    "description": "Automated SAST code reviews driven by security, supports 15+ languages and includes security training.",
     "discussion": null,
     "deprecated": null,
     "resources": null,
@@ -5059,7 +5026,7 @@
     "types": [
       "service"
     ],
-    "homepage": "https://www.deepcode.ai",
+    "homepage": "https://snyk.io/platform/deepcode-ai/",
     "source": null,
     "pricing": null,
     "plans": null,
@@ -7280,6 +7247,43 @@
     "demos": null,
     "wrapper": null
   },
+  "flowr": {
+    "name": "flowR",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "r"
+    ],
+    "other": [],
+    "licenses": [
+      "GPL-3"
+    ],
+    "types": [
+      "cli",
+      "ide-plugin"
+    ],
+    "homepage": "https://github.com/flowr-analysis/flowr",
+    "source": "https://github.com/flowr-analysis/flowr",
+    "pricing": null,
+    "plans": null,
+    "description": "A [program slicer](https://github.com/flowr-analysis/flowr/wiki/Terminology#program-slice) and [dataflow analyzer](https://en.wikipedia.org/wiki/Data-flow_analysis) for the [R](https://www.r-project.org/) programming language. Its slicer allows you to reduce a complicated program just to the parts related for a specific task (e.g., the generation of a single or collection of plots, a significance test, ...). The dataflow analysis provides you with a detailed view on the semantics of the R code which can greatly improve other analyses. To use _flowR_, check out the [Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=code-inspect.vscode-flowr), the [RStudio Addin](https://github.com/flowr-analysis/rstudio-addin-flowr), the [Docker image](https://hub.docker.com/r/eagleoutice/flowr), or the [R package](https://github.com/flowr-analysis/flowr-r-adapter).",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Wiki Pages",
+        "url": "https://github.com/flowr-analysis/flowr/wiki"
+      },
+      {
+        "title": "Overview of the VS Code extension",
+        "url": "https://www.youtube.com/watch?v=Zgq6rnbvvhk"
+      }
+    ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "foodcritic": {
     "name": "foodcritic",
     "categories": [
@@ -8340,7 +8344,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://mangothecat.github.io/goodpractice",
+    "homepage": "https://docs.ropensci.org/goodpractice/",
     "source": "https://github.com/mangothecat/goodpractice",
     "pricing": null,
     "plans": null,
@@ -11126,7 +11130,7 @@
     "types": [
       "service"
     ],
-    "homepage": "https://www.lunasec.io",
+    "homepage": "https://github.com/marketplace/lunatrace-by-lunasec/",
     "source": "https://github.com/lunasec-io/lunasec",
     "pricing": null,
     "plans": null,
@@ -11718,7 +11722,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://mathworks.com/help/matlab/ref/mlint.html",
+    "homepage": "https://www.mathworks.com/help/matlab/ref/mlint.html",
     "source": null,
     "pricing": null,
     "plans": null,
@@ -12151,38 +12155,6 @@
     "demos": null,
     "wrapper": null
   },
-  "nitpick-ci": {
-    "name": "Nitpick CI",
-    "categories": [
-      "linter"
-    ],
-    "languages": [
-      "php"
-    ],
-    "other": [
-      "ci"
-    ],
-    "licenses": [
-      "proprietary"
-    ],
-    "types": [
-      "service"
-    ],
-    "homepage": "https://nitpick-ci.com",
-    "source": null,
-    "pricing": "https://nitpick-ci.com/#pricing",
-    "plans": {
-      "free": false,
-      "oss": true
-    },
-    "description": "Automated PHP code review.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": null,
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
   "njsscan": {
     "name": "njsscan",
     "categories": [
@@ -12598,7 +12570,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://packj.dev",
+    "homepage": "https://github.com/ossillate-inc/packj",
     "source": "https://github.com/ossillate-inc/packj",
     "pricing": null,
     "plans": null,
@@ -13211,7 +13183,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://phpinsights.com",
+    "homepage": "https://github.com/nunomaduro/phpinsights",
     "source": "https://github.com/nunomaduro/phpinsights",
     "pricing": null,
     "plans": null,
@@ -14957,36 +14929,6 @@
     "demos": null,
     "wrapper": null
   },
-  "pycodequal": {
-    "name": "PyCodeQual",
-    "categories": [
-      "linter"
-    ],
-    "languages": [
-      "python"
-    ],
-    "other": [],
-    "licenses": [
-      "proprietary"
-    ],
-    "types": [
-      "service"
-    ],
-    "homepage": "https://pycodequ.al",
-    "source": null,
-    "pricing": "https://pycodequ.al/pricing",
-    "plans": {
-      "free": true,
-      "oss": false
-    },
-    "description": "PyCodeQual gives you insights into complexity and bug risks. It adds automatic reviews to your pull requests.",
-    "discussion": null,
-    "deprecated": null,
-    "resources": null,
-    "reviews": null,
-    "demos": null,
-    "wrapper": null
-  },
   "pycodestyle": {
     "name": "pycodestyle",
     "categories": [
@@ -15699,6 +15641,33 @@
     "description": "A code metric tool for Rails projects",
     "discussion": null,
     "deprecated": true,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "rco": {
+    "name": "rco",
+    "categories": [
+      "performance"
+    ],
+    "languages": [
+      "r"
+    ],
+    "other": [],
+    "licenses": [
+      "GPL-3"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://jcrodriguez1989.github.io/rco/",
+    "source": "https://github.com/jcrodriguez1989/rco",
+    "pricing": null,
+    "plans": null,
+    "description": "Performance optimizer for R code (with GUI).",
+    "discussion": null,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -16429,7 +16398,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "http://code.yorickpeterse.com/ruby-lint/latest",
+    "homepage": "https://gitlab.com/yorickpeterse/ruby-lint",
     "source": "https://gitlab.com/yorickpeterse/ruby-lint",
     "pricing": null,
     "plans": null,
@@ -20413,7 +20382,7 @@
     "plans": null,
     "description": "A linter, formatter for finding and removing unused import statements.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -21169,7 +21138,7 @@
     "types": [
       "cli"
     ],
-    "homepage": "https://www.whitehatsec.com/platform/static-application-security-testing",
+    "homepage": "https://source.whitehatsec.com/help/sentinel/sast-service-detail.html",
     "source": null,
     "pricing": null,
     "plans": null,

@@ -1752,7 +1752,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [sass-lint](https://github.com/sasstools/sass-lint) :warning: — A Node-only Sass linter for both sass and scss syntax.
 
-- [scsslint](https://github.com/brigade/scss-lint) — Linter for SCSS files.
+- [scsslint](https://github.com/brigade/scss-lint) :warning: — Linter for SCSS files.
 
 - [Specificity Graph](https://jonassebastianohlsson.com/specificity-graph) — CSS Specificity Graph Generator.
 

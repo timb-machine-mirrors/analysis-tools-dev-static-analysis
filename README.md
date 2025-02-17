@@ -418,7 +418,7 @@ Also check out the sister project, [awesome-dynamic-analysis](https://github.com
 
 - [effective_dart](https://pub.dev/packages/effective_dart) — Linter rules corresponding to the guidelines in Effective Dart
 
-- [lint](https://github.com/passsy/dart-lint) :warning: — An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricter
+- [lint](https://github.com/passsy/dart-lint) — An opinionated, community-driven set of lint rules for Dart and Flutter projects. Like pedantic but stricter
 
 - [Linter for dart](https://dart-lang.github.io/linter) — Style linter for Dart.
 
@@ -534,7 +534,7 @@ Fprettify is a tool that provides consistent whitespace, indentation, and delimi
 
 - [goast](https://github.com/m-mizutani/goast) :warning: — Go AST (Abstract Syntax Tree) based static analysis tool with Rego.
 
-- [gochecknoglobals](https://github.com/leighmcculloch/gochecknoglobals) :warning: — Checks that no globals are present.
+- [gochecknoglobals](https://github.com/leighmcculloch/gochecknoglobals) — Checks that no globals are present.
 
 - [goconst](https://github.com/jgautheron/goconst) — Finds repeated strings that could be replaced by a constant.
 
@@ -1212,7 +1212,7 @@ Kani verifies:
 
 - [Prusti](https://www.pm.inf.ethz.ch/research/prusti.html) — A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable.
 
-- [Rudra](https://github.com/sslab-gatech/Rudra) — Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single Rust packages as well as all the packages on crates.io.
+- [Rudra](https://github.com/sslab-gatech/Rudra) :warning: — Rust Memory Safety & Undefined Behavior Detection. It is capable of analyzing single Rust packages as well as all the packages on crates.io.
 
 - [Rust Language Server](https://github.com/rust-lang-nursery/rls) :warning: — Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.
 
@@ -1714,7 +1714,7 @@ Loading address: binbloom can parse a raw binary firmware and determine its load
 
 - [rust-audit](https://github.com/Shnatsel/rust-audit) — Audit Rust binaries for known bugs or security vulnerabilities. This works by embedding data about the dependency tree (Cargo.lock) in JSON format into a dedicated linker section of the compiled executable.
 
-- [Twiggy](https://rustwasm.github.io/twiggy) — Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
+- [Twiggy](https://rustwasm.github.io/twiggy) :warning: — Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
 
 - [VMware chap](https://github.com/vmware/chap) — chap analyzes un-instrumented ELF core files for leaks, memory growth, and corruption.  It is sufficiently reliable that it can be used in automation to catch leaks before  they are committed. As an interactive tool, it helps explain memory growth,  can identify some forms of corruption, and supplements a debugger  by giving the status of various memory locations. 
 
@@ -2304,7 +2304,7 @@ TruffleHog is an open source secret-scanning engine that resolves exposed secret
 <h2>Webassembly</h2>
 
 
-- [Twiggy](https://rustwasm.github.io/twiggy) — Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
+- [Twiggy](https://rustwasm.github.io/twiggy) :warning: — Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.
 
 
 <a name="writing" />

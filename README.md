@@ -1439,6 +1439,8 @@ TSLint is an extensible static analysis tool that checks TypeScript code for rea
 
 - [Codiga](https://www.codiga.io) :copyright: — Automated Code Reviews and Technical Debt management platform that supports 12+ languages.
 
+- [Corgea](https://corgea.com/) :copyright: — Corgea is an AI-powered SAST scanner that helps developers find and fix insecure code.  It finds business logic flaws, broken authentication, API vulnerabilities, and more with little false positives. Additionally, it automatically writes security fixes for them to approve.  Corgea integrates with GitHub, GitLab, Azure DevOps, IDEs and CLI. It is free to try it.
+
 - [Corrode](https://github.com/jameysharp/corrode) :warning: — Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors. Superseded by C2Rust.
 
 - [Coverity](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) :copyright: — Synopsys Coverity supports 20 languages and over 70 frameworks including Ruby on rails, Scala, PHP, Python, JavaScript, TypeScript, Java, Fortran, C, C++, C#, VB.NET.

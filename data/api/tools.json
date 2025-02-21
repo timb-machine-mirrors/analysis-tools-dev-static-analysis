@@ -18341,7 +18341,7 @@
     "plans": null,
     "description": "Automatically identify anti-patterns in SQL queries.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": [
       {
         "title": "SQLCheck: Automated Detection and Diagnosis of SQL Anti-Patterns",

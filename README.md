@@ -1241,7 +1241,7 @@ Kani verifies:
 
 - [sleek](https://github.com/nrempel/sleek) — Sleek is a CLI tool for formatting SQL.  It helps you maintain a consistent style across your SQL code, enhancing readability and productivity. The heavy lifting is done by the sqlformat crate.
 
-- [sqlcheck](https://github.com/jarulraj/sqlcheck) — Automatically identify anti-patterns in SQL queries.
+- [sqlcheck](https://github.com/jarulraj/sqlcheck) :warning: — Automatically identify anti-patterns in SQL queries.
 
 - [SQLFluff](https://www.sqlfluff.com/) — Multiple dialect SQL linter and formatter.
 

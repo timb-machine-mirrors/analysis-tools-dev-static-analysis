@@ -638,6 +638,57 @@
     "demos": null,
     "wrapper": null
   },
+  "ast-grep": {
+    "name": "ast-grep",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "c",
+      "csharp",
+      "go",
+      "java",
+      "javascript",
+      "jsx",
+      "kotlin",
+      "lua",
+      "python",
+      "ruby",
+      "rust",
+      "typescript"
+    ],
+    "other": [
+      "json",
+      "yaml"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "cli",
+      "ide-plugin"
+    ],
+    "homepage": "https://ast-grep.github.io/",
+    "source": "https://github.com/ast-grep/ast-grep",
+    "pricing": null,
+    "plans": null,
+    "description": "ast-grep is a powerful tool designed for managing code at scale using Abstract Syntax Trees (AST). Think of it as a hybrid of grep, eslint, and codemod, with the ability to search, lint, and rewrite code based on its structure rather than plain text.\nIt supports multiple languages and is designed to be extensible, allowing you to register custom languages.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "ast-grep Quick Start Guide",
+        "url": "https://ast-grep.github.io/guide/quick-start.html"
+      }
+    ],
+    "reviews": [
+      "https://stackshare.io/ast-grep"
+    ],
+    "demos": [
+      "https://ast-grep.github.io/playground.html"
+    ],
+    "wrapper": null
+  },
   "astree": {
     "name": "Astrée",
     "categories": [
@@ -2269,7 +2320,7 @@
     "plans": null,
     "description": "Linter / Analyzer for Makefiles.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -2429,7 +2480,7 @@
     "plans": null,
     "description": "A Project to give the churn file, class, and method for a project for a given checkin. Over time the tool adds up the history of churns to give the number of times a file, class, or method is changing during the life of a project.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -5175,6 +5226,37 @@
     "demos": null,
     "wrapper": null
   },
+  "deleaker": {
+    "name": "deleaker",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "dotnet",
+      "c",
+      "csharp",
+      "cpp",
+      "delphi"
+    ],
+    "other": [],
+    "licenses": [
+      "proprietary"
+    ],
+    "types": [
+      "service"
+    ],
+    "homepage": "https://www.deleaker.com/",
+    "source": null,
+    "pricing": null,
+    "plans": null,
+    "description": "Deleaker is a memory leak detection tool for C++, .NET, and Delphi, integrating with Visual Studio, Qt Creator, and RAD Studio or running as a standalone application. It helps developers find and fix memory, GDI, and handle leaks efficiently.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
   "delphilint": {
     "name": "DelphiLint",
     "categories": [
@@ -5223,7 +5305,7 @@
     "plans": null,
     "description": "A set of utilities for working with PO files to ease development and improve quality.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -6391,7 +6473,7 @@
     "plans": null,
     "description": "A static and dynamic analysis tool for Laravel applications that provides recommendations to improve the performance, security and code reliability of Laravel apps. Contains 120 automated checks.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": [
       {
         "title": "Enlightn: Performance and Security Consultant",
@@ -6451,7 +6533,7 @@
     "plans": null,
     "description": "ENRE (ENtity Relationship Extractor) is a tool for extraction of code entity dependencies or relationships from source code. ENRE-java is a ENtity Relationship Extractor for Java projects based on @Eclipse JDT/parser.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -7442,6 +7524,33 @@
         "url": "https://www.youtube.com/watch?v=7CfeUXtDlwQ"
       }
     ],
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "fortitude": {
+    "name": "Fortitude",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "fortran"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://fortitude.readthedocs.io",
+    "source": "https://github.com/PlasmaFAIR/fortitude",
+    "pricing": null,
+    "plans": null,
+    "description": "Fortran linter, inspired by (and built on) Ruff, and based on community best practices. Supports latest Fortran (2023) standard.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -10356,7 +10465,7 @@
     "plans": null,
     "description": "Hunt for security weaknesses in Kubernetes clusters.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12626,7 +12735,7 @@
     "plans": null,
     "description": "Packj (pronounced package) is a command line (CLI) tool to vet open-source software packages for \"risky\" attributes that make them vulnerable to supply chain attacks. This is the tool behind our large-scale security analysis platform Packj.dev that continuously vets packages and provides free reports.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -13703,7 +13812,7 @@
     "plans": null,
     "description": "A tool for quickly measuring the size and analyzing the structure of a PHP project.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -14633,7 +14742,7 @@
     "plans": null,
     "description": "A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15609,7 +15718,7 @@
     "plans": null,
     "description": "Provides code completion, refactoring, folding, diagnostics (with lintr), and more for R.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -20146,10 +20255,11 @@
     "categories": [
       "linter"
     ],
-    "languages": [],
-    "other": [
-      "binary",
+    "languages": [
       "wasm"
+    ],
+    "other": [
+      "binary"
     ],
     "licenses": [
       "Other"
@@ -20163,7 +20273,7 @@
     "plans": null,
     "description": "Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -21072,6 +21182,34 @@
     "pricing": null,
     "plans": null,
     "description": "A flexible Scala code linting tool.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "wasm-language-tools": {
+    "name": "wasm-language-tools",
+    "categories": [
+      "linter",
+      "formatter"
+    ],
+    "languages": [
+      "wasm"
+    ],
+    "other": [],
+    "licenses": [
+      "MIT License"
+    ],
+    "types": [
+      "ide-plugin"
+    ],
+    "homepage": "https://github.com/g-plane/wasm-language-tools",
+    "source": "https://github.com/g-plane/wasm-language-tools",
+    "pricing": null,
+    "plans": null,
+    "description": "WebAssembly Language Tools aims to provide and improve the editing experience of WebAssembly Text Format. It also provides an out-of-the-box formatter (a.k.a. pretty printer) for WebAssembly Text Format.",
     "discussion": null,
     "deprecated": null,
     "resources": null,

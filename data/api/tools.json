@@ -1820,7 +1820,7 @@
     "plans": null,
     "description": "Find out what takes most of the space in your executable. supports ELF (Linux, BSD), Mach-O (macOS) and PE (Windows) binaries.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -2853,6 +2853,40 @@
     "discussion": null,
     "deprecated": true,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "cloud-iac-security-for-jetbrains-ides": {
+    "name": "Cloud (IaC) Security for JetBrains IDEs",
+    "categories": [
+      "linter"
+    ],
+    "languages": [],
+    "other": [
+      "dockerfile",
+      "kubernetes",
+      "security"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "types": [
+      "ide-plugin"
+    ],
+    "homepage": "https://plugins.jetbrains.com/plugin/25413-cloud-iac-security",
+    "source": "https://github.com/NordCoderd/cloud-security-plugin",
+    "pricing": null,
+    "plans": null,
+    "description": "Cloud (IaC) Security plugin for JetBrains IDEs. Performs real-time inspections of Docker & Kubernetes IaC with 50+ rules based on Docker image/build security best practices, Kubernetes Pod Security Standards, and NSA/CISA Kubernetes Hardening Guidance.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Bundled-rules documentation",
+        "url": "https://protsenko.dev/infrastructure-security/"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -7237,7 +7271,7 @@
     "plans": null,
     "description": "Flay analyzes code for structural similarities.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -9662,7 +9696,7 @@
     "plans": null,
     "description": "Detect ineffectual assignments in Go code.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -10138,6 +10172,51 @@
     "discussion": null,
     "deprecated": null,
     "resources": null,
+    "reviews": null,
+    "demos": null,
+    "wrapper": null
+  },
+  "keploy": {
+    "name": "keploy",
+    "categories": [
+      "linter"
+    ],
+    "languages": [
+      "csharp",
+      "go",
+      "java",
+      "javascript",
+      "python",
+      "rust"
+    ],
+    "other": [],
+    "licenses": [
+      "Apache-2.0 License"
+    ],
+    "types": [
+      "cli"
+    ],
+    "homepage": "https://keploy.io/",
+    "source": "https://github.com/keploy/",
+    "pricing": null,
+    "plans": null,
+    "description": "Keploy is an open-source testing platform that helps developers automate and streamline their testing process. It provides API, and integration testing agents, generating tests, mocks/stubs for APIs that actually work. Additionally, Keploy offers an AI-powered Unit Testing Agent that generates stable, useful unit tests directly in your GitHub PRs and in VSCode, helping catch errors and improve code quality.",
+    "discussion": null,
+    "deprecated": null,
+    "resources": [
+      {
+        "title": "Keploy PR Agent",
+        "url": "https://github.com/apps/keploy"
+      },
+      {
+        "title": "Keploy Agent VSCode Extension",
+        "url": "https://marketplace.visualstudio.com/items?itemName=Keploy.keployio"
+      },
+      {
+        "title": "Keploy Low code Integration Testing",
+        "url": "https://github.com/keploy/keploy"
+      }
+    ],
     "reviews": null,
     "demos": null,
     "wrapper": null
@@ -11295,7 +11374,7 @@
     "plans": null,
     "description": "Open Source AppSec platform that automatically notifies you the next time vulnerabilities like Log4Shell or node-ipc happen. Track your dependencies and builds in a centralized service.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -12982,7 +13061,7 @@
     "plans": null,
     "description": "Calculates software metrics like cyclomatic complexity for PHP code.",
     "discussion": null,
-    "deprecated": null,
+    "deprecated": true,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -13920,7 +13999,7 @@
     "plans": null,
     "description": "A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics).",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -15799,7 +15878,7 @@
     "plans": null,
     "description": "A code metric tool for Rails projects",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
@@ -18854,7 +18933,7 @@
     "plans": null,
     "description": "Analyses your Java applications for open-source dependencies with known vulnerabilities, using both static analysis and testing to determine code context and usage for greater accuracy.",
     "discussion": null,
-    "deprecated": true,
+    "deprecated": null,
     "resources": null,
     "reviews": null,
     "demos": null,
